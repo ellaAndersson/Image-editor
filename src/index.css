@@ -11,3 +11,179 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.navbar{
+  width: 100%;
+}
+.navbar .navButton{
+  color: white;
+  display: flex;
+  font-family: "Garamond";
+  margin-left: 20%;
+  margin-right: 30%;
+  align-items: center;
+  text-decoration: none;
+  width: 10%;
+  
+}
+
+.navbar a{
+  text-decoration: none;
+  width: 10%;
+}
+.navbar .navButtonHome{
+  font-family: 'Brush Script MT', cursive;
+  font-weight: 500;
+  color: white;
+
+}
+.home {
+  color:dimgray;
+  text-align: center;
+}
+.home img{
+  margin-left: 10%;
+}
+.home h3{
+  margin-top: 6%;
+  font-family: 'Brush Script MT', cursive;
+
+}
+.home h6{
+  font-family: "Garamond";
+}
+.info{
+  margin-top: 7%;
+  color:dimgray;
+  text-align: center;
+}
+.info h3{
+  font-family: 'Brush Script MT', cursive;
+
+}
+.info h6{
+  font-family: "Garamond";
+
+}
+
+.edit h4{
+  font-family: 'Brush Script MT', cursive;
+  color:dimgray;
+  margin-bottom: 2%;
+  margin-top: 2%;
+  margin-left: 2%;
+
+}
+.edit #fileSelector{
+  margin-left: 2%;
+  color:dimgray;
+
+}
+.edit #canvas{
+  margin-left: 2%;
+  margin-top: 7%
+
+}
+
+.edit #sliders{
+  width: 75%;
+  text-align: center;
+  
+  height: 50%;
+  margin-left: 5%;
+ 
+}
+.edit {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.edit .editing{
+  position: fixed;
+  margin-left: 70%;
+ 
+}
+
+.edit #buttons{
+  text-align:center;
+}
+.edit button{
+  margin: 5%;
+}
+
+.edit #textfields{
+  margin-top: 4%;
+  margin-left: 5%;
+  width: 75%;
+}
+
+
+@media print{
+  .noprint{
+    display: none;
+  }
+  .appbar{
+    display: none;
+  }
+}
+
+.gallery #result{
+  margin-top: 2%;
+  margin-left: 15%;
+  margin-right: 15%;
+  text-align: center;
+}
+
+.gallery #galleryImage{
+  margin-left: 3%;
+  margin-bottom: 3%;
+}
+.gallery #menuButton{
+  margin-left: 2%;
+  margin-top: 1%;
+  
+}
+.gallery #closeButton{
+  position: 'absolute';
+  margin-top: 5%;
+    
+}
+.enlargedImg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+
+}
+.edit dialog{
+  height: 50%;
+
+}
+
+.enlargedImg img{
+  display: block;
+  width: 35%;
+  height: 80%;
+  margin: 60px auto;
+  box-shadow: 3px 5px 7px rgba(0,0,0,0.5);
+  border: 3px solid white;
+}
+.enlargedImg .btn {
+  position: absolute;
+  top: 95%;
+  left: 65%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.enlargedImg .btn:hover {
+  background-color: black;
+}
