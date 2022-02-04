@@ -1,3 +1,9 @@
+# Image editor
+
+Edit images from your computer and save edited images to your computer or to the image editor's gallery.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

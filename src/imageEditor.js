@@ -7,7 +7,7 @@ import Home from './Home';
 import Info from './Info';
 import LargeImage from './LargeImage';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
-//hello
+
 
 function ImageEditor() {
 	const [selectedImg,setSelectedImg] = React.useState(null);
